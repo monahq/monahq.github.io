@@ -1,0 +1,86 @@
+
+<!DOCTYPE html> <html lang="en"> <head> <title>About Mona</title> <script data-main="/assets/javascripts/main.js" src="//cdn.jsdelivr.net/webjars/org.webjars.bower/requirejs/2.3.1/require.js"></script> <meta name="robots" content="noindex"> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="description" content="Start a Mission for your specific shopping goal and Mona will keep you up to date on exactly the things you're looking for. She will continuously search and track items, specific to you and your unique goals."> <meta name="keywords" content="shop,shopping app,sale,clothing,fashion,style,coupon,deal,discount,shoes,dress,jean,free,promo,promotion,swag,personal assistant,shopping"> <meta name="author" content=""> <meta name="viewport" content="width=device-width"/> <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '988228921218494');
+    fbq('track', "PageView");
+</script> <noscript><img height="1" width="1" style="display:none" src="//www.facebook.com/tr?id=988228921218494&ev=PageView&noscript=1"/></noscript> <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon"> <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon"> <link href="/assets/stylesheets/nonresponsive-bootstrap.css" rel="stylesheet"> <link href="/assets/stylesheets/v2.css" rel="stylesheet"> <link href="/assets/stylesheets/mobile.css" rel="stylesheet"> <link href="/assets/stylesheets/ladda-themeless.min.css" rel="stylesheet"> <script>
+    function addLoadEvent(func) {
+        var oldonload = window.onload;
+        if (typeof window.onload != 'function') {
+            window.onload = func;
+        } else {
+            window.onload = function() {
+                if (oldonload) {
+                    oldonload();
+                }
+                func();
+            }
+        }
+    }
+</script> </head> <body> <div class="navbar navbar-default navbar-fixed-top" style="opacity: 1;background-color:#242428;border-color:#242428;"> <div class="monaNavbar wrapper container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <a href="/"><img id="v2logo" src="/assets/images/logo-footer@3x.png"/></a> </div> <div id="navbar" class="v2navbarLink navbar-collapse collapse text-center" style="background-color:#242428;"> <ul class="nav navbar-nav navbar-right"> <li><a style="color:#ffffff;text-decoration:underline;" href="about">ABOUT US</a></li> <li><a style="color:rgba(255, 255, 255, 0.5);" href="//medium.com/@ShopWithMona" target="_blank">BLOG</a></li> <li><a style="color:rgba(255, 255, 255, 0.5);" href="mailto:hello@monahq.com">CONTACT US</a></li> </ul> </div> </div> </div> <script type="text/javascript">
+        window.onload = function() {
+            $(function () {
+                $('html').click(function() {
+                    $('.longBioV2').hide();
+                    $('.shortBioV2').show();
+                    $('.singleBioV2').find('.bioV2').removeClass('highlightedBioV2');
+                });
+                $('.singleBioV2').click(function(event){
+                    event.stopPropagation();
+                    $('.longBioV2').hide();
+                    $('.shortBioV2').show();
+                    $('.singleBioV2').find('.bioV2').removeClass('highlightedBioV2');
+                    $(this).find('.longBioV2').show();
+                    $(this).find('.shortBioV2').hide();
+                    $(this).find('.bioV2').toggleClass('highlightedBioV2');
+                });
+                $('.singleBioV2').hover(function(event){
+                    $(this).css('cursor','pointer');
+                });
+
+                /* $('.short-bio').mouseover(function(event){
+                 $('.long-bio').hide();
+                 $('.short-bio').show();
+                 $(this).hide();
+                 $(this).next().show();
+                 }); */
+
+                /* $('.long-bio').mouseleave(function(event){
+                 $('.long-bio').hide();
+                 $('.short-bio').show();
+                 }); */
+
+            });
+        }
+    </script> <div class="monaBlock" id="aboutPageTopBlock"> <div class="monaBlock wrapper" id="aboutPageTopBlock"> <div class="row text-center monaInnerBlock" style="padding-top:100px;padding-bottom:100px;"> <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1"> <div class="monaHeaderV2" style="font-size: 30px;color:#ffffff"> THE MONA TEAM </div> <div class="monaBodyTextV2" style="font-size: 16px;color:#697988"> Mona is designed and developed in Seattle by former Amazon.com software engineers, product managers and designers. We are a team of builders who created high impact products used and loved by hundreds of millions around the world. </div> </div> </div> </div> </div> <div class="" id="aboutPageMembersBlock"> <div class="wrapper" id="aboutPageMembersBlock"> <div class="row text-center"> <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2 text-center singleBioV2"> <img height="175px" class="img-circle" src="/assets/images/Orkun.png"/> <div class="bioV2"> <div class="bioNameV2">Orkun Atik</div> <div class="bioTitleV2">Founder &amp; Product</div> <div class="shortBioV2 bioTextV2">Orkun was previously product manager of recommendations, Local Register, Cloud Wallet and person-to-person payments at Amazon.com where he launched several...</div> <div class="longBioV2 bioTextV2">Orkun was previously product manager of recommendations, Local Register, Cloud Wallet and person-to-person payments at Amazon.com where he launched several recommender systems and features on Amazon.com websites and devices and consumer wallet services in the U.S., U.K. and Germany. Prior to Amazon.com, Orkun worked on mobile check-out and mobile carrier billing products at PayPal. Orkun also held product management and corporate development positions at Turkcell, Turk Telekom and Ericsson where he built and launched several mobile operator products and services. Orkun has an MBA from Carnegie Mellon University and BSc in Electronics Engineering from Istanbul University.</div> </div> </div> <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 text-center singleBioV2"> <img height="175px" class="img-circle" src="/assets/images/Merve.png"/> <div class="bioV2"> <div class="bioNameV2">Merve Apuhan</div> <div class="bioTitleV2">Product &amp; Data Science</div> <div class="shortBioV2 bioTextV2">Merve has 12 years of experience in business intelligence, analytics and product management in e-commerce, telecoms, Internet and banking industries. She has...</div> <div class="longBioV2 bioTextV2">Merve has 12 years of experience in business intelligence, analytics and product management in e-commerce, telecoms, Internet and banking industries. She has worked in various capacities including software engineer, business analyst, project manager and product manager at companies such as Amazon.com, Microsoft and Turkcell. Merve is Mona's first power user and she's also the one who came up with the name Mona. Merve holds an MBA from Carnegie Mellon University and a BSc in Industrial Engineering from Istanbul Technical University.</div> </div> </div> </div> <div class="row text-center"> <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-2 text-center singleBioV2"> <img height="175px" class="img-circle" src="/assets/images/Cem.png"/> <div class="bioV2"> <div class="bioNameV2">Cem Catikkas</div> <div class="bioTitleV2">Engineering</div> <div class="shortBioV2 bioTextV2">Cem is a software engineer who enjoys building highly available and reliable software solutions. After studying Computer Science at the University of Washington...</div> <div class="longBioV2 bioTextV2">Cem is a software engineer who enjoys building highly available and reliable software solutions. After studying Computer Science at the University of Washington, Cem joined BlackBerry where he was a key contributor to architecture, design and development of various consumer and enterprise BlackBerry services used by 100M+ customers, such as BIS E-Mail and BlackBerry Enterprise Server. At BlackBerry, Cem led various interdisciplinary efforts to improve quality of legacy and new platforms acting as a liaison between development, testing and operations teams.</div> </div> </div> <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 text-center singleBioV2"> <img height="175px" class="img-circle" src="/assets/images/Utku.png"/> <div class="bioV2"> <div class="bioNameV2">Utku Dora Ozdemir</div> <div class="bioTitleV2">Engineering &amp; Machine Learning</div> <div class="shortBioV2 bioTextV2">Utku is a software engineer who is passionate about building scalable software solutions on various platforms. He earned his BSc degrees in Informations Systems Engineering from both Istanbul...</div> <div class="longBioV2 bioTextV2">Utku is a software engineer who is passionate about building scalable software solutions on various platforms. He earned his BSc degrees in Informations Systems Engineering from both Istanbul Technical University and Binghamton University. Prior to Mona, Utku interned in Pisano and Istanbul Technical University Artificial Intelligence and Robotics Laboratory. He also holds a Guinness World Record in bachata dancing.</div> </div> </div> </div> </div> </div> <div id="companyInfoBlock"> <div class="wrapper" id="companyInfoBlock"> <div class="row" style="padding-top:70px;padding-bottom:70px;border-bottom:1px solid rgba(105, 121, 136, 0.2);"> <div class="col-sm-2 col-sm-offset-1 col-xs-10 col-xs-offset-1"> <div class="companyInfoTitle"> ABOUT MONA </div> </div> <div class="col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <div class="companyInfoText"> Mona is an artificial intelligence based mobile shopping assistant that is changing the way people shop. Our goal is to create the world's most personal mobile retail shopping experience. Mona provides an interactive product search experience where she asks for and analyzes customer feedback and provides better recommendations in real-time. This is our first step towards creating a mobile shopping experience that is similar to an in-store dialogue between a customer and a personal shopping assistant. Today, Mona simplifies mobile search, discovery and purchases. In the future, she’ll do returns, re-orders, local search and more. </div> </div> </div> <div class="row" style="padding-top:70px;padding-bottom:70px;border-bottom:1px solid rgba(105, 121, 136, 0.2);"> <div class="col-sm-2 col-sm-offset-1 col-xs-10 col-xs-offset-1"> <div class="companyInfoTitle"> OUR VISION </div> </div> <div class="col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <div class="companyInfoText"> We think technology and software should be smart and personalized enough to think on behalf of us. We think a smart, personal and simple interface will add a layer of convenience between us and all underlying services and tools in the future. We believe a smart assistant can make shopping easy by adding a beautiful, smart and personalized layer over disparate shopping services and experiences. </div> </div> </div> <div class="row" style="padding-top:70px;padding-bottom:70px;border-bottom:1px solid rgba(105, 121, 136, 0.2);"> <div class="col-sm-2 col-sm-offset-1 col-xs-10 col-xs-offset-1"> <div class="companyInfoTitle"> THE COMPANY </div> </div> <div class="col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <div class="companyInfoText"> We are a personalization company and single-mindedly focused on helping move e-commerce forward. We are among the world experts who know how to do personalization and e-commerce at scale. Our team have launched and analyzed hundreds of experiments and recommender systems that yielded durable learnings around user experience and personalization algorithms. </div> </div> </div> <div class="row" style="padding-top:70px;padding-bottom:70px;border-bottom:1px solid rgba(105, 121, 136, 0.2);"> <div class="col-sm-2 col-sm-offset-1 col-xs-10 col-xs-offset-1"> <div class="companyInfoTitle"> JOIN US </div> </div> <div class="col-sm-8 col-sm-offset-0 col-xs-10 col-xs-offset-1"> <div class="companyInfoText"> If you are intrigued with what you see here and would like to work on building the future of commerce then please <a href="mailto:founders@monahq.com">contact us</a>. We are hiring front-end and back-end software engineers, machine learning researchers and product designers. </div> </div> </div> </div> </div> <div class="monaBlock" id="footerBlock"> <div class="monaBlock wrapper" id="footerBlock"> <div class="monaInnerBlock" id="footerBlockInner"> <div class="row"> <div class="col-sm-3 col-xs-12 text-center"> <a href=""><img id="v2logoFooter" src="/assets/images/logo-footer@3x.png"/></a> </div> <div class="col-sm-6 col-sm-offset-0 v2navbarLink text-center col-xs-offset-0 col-xs-12" style="padding-top:25px; padding-bottom: 20px;"> <a class="footerLinkV2" href="about">ABOUT US</a> <br class="desktopHidden mobileShown"/> <a class="footerLinkV2" href="//medium.com/@ShopWithMona" target="_blank">BLOG</a> <a class="footerLinkV2" href="mailto:hello@monahq.com">CONTACT US</a> </div> <div class="col-sm-3 col-sm-offset-0 text-center v2navbarLink col-xs-12" style="color:rgba(255, 255, 255, 0.5);"> CONNECT WITH US ON <br/> <a target="_blank" href="//twitter.com/shopwithmona"><i class="fa fa-twitter socialLinkV2"></i></a> <a target="_blank" href="//www.instagram.com/shopwithmona/"><i class="fa fa-instagram socialLinkV2"></i></a> <a target="_blank" href="//www.facebook.com/JoinMona"><i class="fa fa-facebook socialLinkV2"></i></a> <a target="_blank" href="//www.linkedin.com/company/10015748"><i class="fa fa-linkedin socialLinkV2"></i></a> <a target="_blank" href="mailto:hello@monahq.com"><i class="fa fa-envelope socialLinkV2"></i></a> </div> </div> <div class="row belowFooterLink" style="padding-top:25px;"> <div class="text-center col-xs-12 col-xs-offset-0"> <a class="belowFooterLinkV2" href="privacy">Privacy Policy</a> <a class="belowFooterLinkV2" href="terms">Terms &amp; Conditions</a> <br class="desktopHidden mobileShown"/> <span class="belowFooterLinkV2">Copyright &copy; 2017 Mona Labs Inc. All rights Reserved.</span> </div> </div> </div> </div> </div> <script type="text/javascript">
+    addLoadEvent(function () {
+
+        //if(matchMedia('only screen and (max-device-width:736px) and (orientation:portrait)').matches) {
+        //    $(".monaBlock").each(function(index){
+        //        $(this).css('height',$(this).find(".monaInnerBlock").outerHeight()+50+"px");
+        //    });
+        //}
+
+        $(".bottomlessBlock").each(function(index){
+            $(this).css('height',$(this).find(".monaInnerBlock").outerHeight()+"px");
+        });
+
+    });
+
+    // this is not an efficient way of refreshing, but needed for some elements to look good
+    // CAUSED TROUBLE, SO WILL FIND ANOTHER WAY
+    //addLoadEvent(function(){$(window).bind('resize', function() { location.reload(); });});
+</script> <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-55411737-2', 'auto');
+    ga('send', 'pageview');
+</script> </body> </html>

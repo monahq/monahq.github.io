@@ -1,0 +1,240 @@
+@media only screen and (max-device-width:599px) and (orientation:portrait) {
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container {
+        width: 100%;
+    }
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .navbar-default {
+       min-height: 40px;
+    }
+    .navbar-default {
+        opacity: 1;
+    }
+    .navbar-fixed-top {
+        position: fixed;
+        min-height: 60px;
+        height: 60px;
+    }
+    .navbar-toggle {
+        padding: 10px 25px;
+    }
+    .navbar-nav>li>a {
+        height: initial;
+    }
+    #v2logo {
+        margin-left: 28px;
+        margin-top: 15px;
+        width: 112px;
+        height: 24px;
+    }
+    .mobileHidden {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .mobileShown {
+        display: initial !important;
+        visibility: visible !important;
+    }
+    .monaInnerBlock {
+        padding-top: 40px;
+    }
+    #pressGeekWire {
+        margin-top: 0px;
+    }
+    #sayHiImage {
+        z-index: initial;
+        height: initial;
+        width: 100%;
+        margin-left: initial;
+    }
+    #sayHiBlockInner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #sayHiContent {
+        padding-top: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sayHiImageZIndex {
+        z-index: initial;
+    }
+    #downloadButton {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+    #missionBlock {
+       padding-top: 0px;
+       padding-bottom: 5px;
+    }
+    #missionImage {
+        height: initial;
+        position: initial;
+        width: 100%;
+    }
+    #missionImageOuter {
+        margin-top: 0px;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    #missionContent {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    #missionContent .monaHeaderV2 {
+       font-weight: 100;
+    }
+    #alwaysPersonalContent {
+        top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    #alwaysPersonalImage {
+        width: 100%;
+        height: initial;
+    }
+    #alwaysPersonalImageBlock {
+        position: initial;
+        top: 0px;
+        padding-bottom: 40px;
+    }
+    #bestPriceImage {
+        height: initial;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    #bestPriceContent {
+        z-index: 1;
+        padding-top: 0px;
+        position: initial;
+        right: 0px;
+        text-align: left;
+    }
+    #bestPriceContent .monaBodyTextV2 {
+        padding-bottom: 10px;
+    }
+    #bestPriceBlockInner {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    #continuouslyImprovingBlock {
+       padding-top: 0px;
+    }
+    .continuouslyImprovingImageOuter {
+        margin-top: 0px;
+    }
+    #continuouslyImprovingImage {
+        height: initial;
+        width: 100%;
+        position: initial;
+        right: 0px;
+    }
+    #continuouslyImprovingContent {
+        z-index: 1;
+        text-align: left;
+        margin-top: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    #recentPressBlock {
+       width: 100%;
+    }
+    #recentPressContent {
+        padding-top: 50px;
+    }
+    #recentPressIcons {
+        margin-top: 32px;
+    }
+    .pressLinkV2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .pressIconImage {
+        max-height: 50px;
+    }
+    #checkoutShippingContent {
+       padding-bottom: 0px;
+    }
+    #checkoutShippingIcons img {
+       width: 90px;
+       height: 90px;
+    }
+    #checkoutShippingIcons h4 {
+        padding-top: 10px;
+    }
+    #checkoutShippingIcons p {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    #signupContent {
+        padding-top: 50px;
+        text-align: left;
+    }
+    #signupTitle {
+        text-align: left;
+    }
+    #emailTextFieldV2 {
+        width: 90%;
+        margin-right: 0px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #v2logoFooter {
+        padding-left: 0px;
+    }
+    .footerLinkV2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .belowFooterLinkV2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .v2navbarLink {
+        text-align: center;
+    }
+    .belowFooterLink {
+        text-align: center;
+    }
+    .monaHeaderV2 {
+        font-size: 26px;
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+    .monaBodyTextV2 {
+        font-size: 14px;
+    }
+    #footerBlockInner {
+       padding-left: 0px;
+    }
+    .highlightedBioV2 {
+        position: initial;
+        margin: 0 auto;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 17px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 17px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 17px;
+    }
+    :-ms-input-placeholder {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,900,700italic,700,500italic,500,400italic,300italic,900italic);
+
+html {
+  font-family: 'Roboto' ,'Source Sans Pro', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Roboto' ,'Source Sans Pro', sans-serif;
+}
+
+.header-container {
+    background: black;
+}
+
+#header {
+    background: black;
+}
+
+header .shopping-cart {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.product-fields .product-fields-meta .product-details .product-quantity-and-price .product-price .product-price-original-value {
+    color: #CCCCCC;
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+.product-fields .product-fields-meta .product-details .product-quantity-and-price .product-price .product-price-discounted-value {
+    color: #F74F4F;
+    font-weight: normal;
+}
+
+.checkout-info {
+    background: initial;
+}
+
+.shipping-options .shipping-options-tabs .shipping-option.active {
+    background: black;
+    border-color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.shipping-options .shipping-options-tabs .shipping-option {
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.btn-blue {
+    background: black;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.btn-blue:hover {
+    background: black;
+}
+
+.price-list tr.grand-total .price-desc {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.price-list tr.grand-total .price-value {
+    font-size: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 25px;
+    color: black;
+}
+
+.checkout-info .your-wallet {
+    font-weight: normal;
+}
+
+.checkout-info .muted-header {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.checkout-info .email-info input {
+    font-size: 120%;
+    font-weight: normal;
+}
+
+.checkout-info .generic-info .new-link a {
+    font-size: 120%;
+    font-weight: normal;
+}
+
+.progress-container .remote-pending {
+    background-color: #edf0f1;
+}
+
+.progress-container .remote-pending .progress .progress-bar {
+    background-color:black;
+}
+
+.product-fields {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.product-fields .product-fields-meta .product-details .product-quantity-and-price .product-quantity .product-quantity-input input {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.product-fields .product-fields-meta {
+    margin-bottom: 25px;
+}
+
+.muted-header {
+    font-size: 12px;
+    color: #b3b3b3;
+    font-weight: 500;
+}
+
+.product-fields .product-option-list .table td .muted-header {
+    font-size: 12px;
+    color: #b3b3b3;
+    font-weight: 500;
+}
+
+.site-and-product-holder {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.price-list tr .price-desc {
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 14px;
+}
+
+.price-list tr .price-value {
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 14px;
+}
+
+.coupon-and-price-list {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.price-list tr.final_price {
+    font-weight: 500;
+}
+
+tr.subtotal {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: transparent;
+}
+tr.shipping_price {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: transparent;
+}
+tr.sales_tax {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: transparent;
+}
+tr.final_price {
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: transparent;
+}
+
+.shipping-options .shipping-options-tabs .shipping-option:first-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.shipping-options .shipping-options-tabs .shipping-option:nth-child(2) {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.shipping-options {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.product-fields .product-fields-meta .product-remove a {
+    border-bottom: 0px solid #edf0f1;
+    border-left: 0px solid #edf0f1;
+    color: #b3b3b3;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.shipping-options .shipping-options-desc {
+    color: #808080;
+    font-size: 12px;
+    margin-top: 17px;
+}
+
+.checkout-info .your-wallet {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    padding-left: 40px;
+}
+
+.checkout-info .your-wallet-lock {
+    display: none;
+    visibility: hidden;
+}
+
+.generic-info.with-top-border {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 1px solid #b3b3b3;
+}
+
+.generic-info.with-bottom-border {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.checkout-info .generic-info {
+    border-bottom: 1px solid #b3b3b3;
+    padding: 8px 25px;
+}
+
+.checkout-info {
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0 0px 0 #fff;
+}
+
+.checkout-info .generic-info .new-link .img-holder {
+    color: black;
+}
+
+.grand-total-price-list {
+    margin-top: 30px;
+}
+
+.btn-holder-all {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.onoffswitch-inner:before {
+    background-color: #000000;
+}
+
+.form-progress ul li.progress-entry.active .index {
+    background: #000000;
+}
+
+.form-progress ul li.progress-entry.active .name {
+    color: #000000;
+}
+
+a {
+    color: #000000;
+}
+
+.shipping-info  .edit-icon {
+    right: 30px !important;
+}
+
+.done .done-header.done-success {
+    background: black;
+}
+
+.done .done-header.done-pending {
+    background: black;
+}
